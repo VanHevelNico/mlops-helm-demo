@@ -38,6 +38,8 @@ jobs:
       - name: Navigeren naar fastapi
         run: |
           ls
+          cd FacialReconstruction_HomeProject
+          ls
           helm install helm-demo charts/fastapi
 
           
