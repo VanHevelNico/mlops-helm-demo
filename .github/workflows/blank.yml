@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Starting test
-          git pull https://ouassimboutalliss.github.io/FacialReconstruction_HomeProject
+          git pull https://github.com/ouassimboutalliss/FacialReconstruction_HomeProject
       
       - name: Navigeren naar fastapi
         run: cd charts
