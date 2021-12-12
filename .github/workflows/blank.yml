@@ -37,6 +37,7 @@ jobs:
       
       - name: Navigeren naar fastapi
         run: |
-          cd charts/fastapi
-          
+          cd charts/
+          helm install helm-demo ./fastapi
+
           
