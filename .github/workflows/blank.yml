@@ -40,6 +40,6 @@ jobs:
           ls
           cd FacialReconstruction_HomeProject/charts/fastapi
           ls
-          helm install helm-demo ./fastapi
+          helm install helm-demo chart.yaml
 
           
