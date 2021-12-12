@@ -33,7 +33,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Starting test
-          helm repo add howest https://howest-mct.github.io/2021-2022-mlops-helm-demo
+          kubectl create namespace segers-nathan-helm-demo
+          helm repo add howest -n segers-nathan-helm-demo https://howest-mct.github.io/2021-2022-mlops-helm-demo
       
       - name: Navigeren naar fastapi
         run: helm install helm-demo howest/example-v2
