@@ -36,5 +36,5 @@ jobs:
           helm repo add howest https://howest-mct.github.io/2021-2022-mlops-helm-demo
       
       - name: Navigeren naar fastapi
-        run: helm install helm-demo -n segers-nathan-helm-demo howest/example-v2
+        run: helm install helm-demo howest/example-v2
           
