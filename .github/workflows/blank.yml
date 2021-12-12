@@ -33,8 +33,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Starting test
-          git pull https://howest-mct.github.io/2021-2022-mlops-helm-demo
+          git pull https://github.com/ouassimboutalliss/FacialReconstruction_HomeProject
       
       - name: Navigeren naar fastapi
-        run: helm install helm-demo howest/example-v2
+        run: |
+          cd charts/fastapi
+          helm install helm-demo fastapi
+          
           
