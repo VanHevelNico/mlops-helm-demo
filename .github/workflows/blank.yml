@@ -40,6 +40,6 @@ jobs:
           ls
           cd FacialReconstruction_HomeProject/charts/fastapi
           ls
-          helm install home-assignment chart.yaml
+          helm install home-assignment chart.yaml  --values values.yaml
 
           
