@@ -37,9 +37,7 @@ jobs:
       
       - name: Navigeren naar fastapi
         run: |
-          ls
           cd FacialReconstruction_HomeProject/charts/fastapi
-          ls
           helm install home-assignment chart.yaml  --values values.yaml
 
           
