@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: gchr.io/nathansefers/01-fastapi
+  repository: ghcr.io/nathansefers/01-fastapi
   tag: latest
   pullPolicy: IfNotPresent
 
